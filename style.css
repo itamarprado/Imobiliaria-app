@@ -277,6 +277,10 @@ h1, h2, h3, h4, h5, h6, strong {
     border-radius: 0.5rem;
 }
 
+.servico p {
+    font-weight: 700;
+}
+
 .division {
     height: 2rem;
     width: 100%;
@@ -303,7 +307,6 @@ h1, h2, h3, h4, h5, h6, strong {
     flex-direction: column;
     gap: 1.25rem;
     color: white;
-    border-radius: 0.825rem;
 }
 
 input {
@@ -329,7 +332,7 @@ input:hover, textarea:hover {
 
 
 .submit {
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     height: 2rem;
     background-color: #559eda;
     color: white;
