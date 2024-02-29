@@ -376,7 +376,7 @@ input:hover, textarea:hover {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
