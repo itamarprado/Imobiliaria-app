@@ -104,6 +104,14 @@ h1, h2, h3, h4, h5, h6, strong {
     padding-bottom: 2rem;
 }
 
+.imoveis {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 /* Estilos de cada card de imóvel */
 .imovel {
     display: flex;
@@ -113,7 +121,9 @@ h1, h2, h3, h4, h5, h6, strong {
     box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.5);
     background-color: #F2F2F2;
     position: relative;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    max-width: 400px;
+    flex: 1 1 300px;
 }
 
 .classificacao {
