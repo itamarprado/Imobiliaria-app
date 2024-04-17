@@ -423,11 +423,17 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 }
 
 @media screen and (min-width: 480px) {
+    /* Tablets and iPads */
     .dropdown-content{
         max-width: 320px;
     }
 }
 
 @media screen and (min-width: 768px) {
+    /* Small screens (laptops) */
     
+}
+
+@media screen and (min-width: 1024px) {
+    /* Large screens (desktop) */
 }
