@@ -1,0 +1,31 @@
+To do:
+
+Parte 1 - Desenvolvimento das páginas do Website:
+    1. Definir um container e utilizá-lo para centralizar todo o conteúdo (definir somente largura, altura deve ficar por conta do conteúdo)
+
+    2. Melhorar seções:
+        2.1. Corrigir menu mobile e implementar menu desktop
+        2.2. Corrigir carrossel de imagens
+        2.3. Ajustar tamanho dos Cards nos destaques
+        2.4. Ajustar seção de pontos turísticos (praias)
+        2.5. Ajustar a seção de endereço e melhorar estilos
+        2.6. Analisar possíveis melhorias na seção de serviços
+        2.7. Ajustar background da seção de contato (form)
+        2.8. Melhorar seção footer
+
+    3. Ajustar breakpoints das media queries
+    4. Criar páginas adjacentes:
+        4.1. Página da exibição dos imóveis
+        4.2. Página de oferecimento de serviços
+        4.3. Página sobre o dono do Website
+        4.4. Página de contato
+
+    Após finalizar a estrutura HTML, CSS, JS:
+        1. Implementar um framework (Reactjs, Angular, Vuejs)
+        2. Componentizar elementos
+        3. Otimizar renderização de multiplos elementos (e.g. seção de destaque) utilizando laços de repetição etc.
+        4. Melhorar desempenho geral de carregamento da página.
+
+Parte 2 - Desenvolvimento da página de Administração do WebSite:
+    -- Ainda a definir --
+
