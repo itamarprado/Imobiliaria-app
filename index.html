@@ -12,21 +12,25 @@
     <!-- Menu topo -->
     <nav class="nav">
       <!-- Menu -->
-      <h1>Exemplo</h1>
-      <div class="dropdown">
-        <button id="btn-menu">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-        <ul class="dropdown-content" id="dropdown-content">
-          <button id="closeMenu">
-            <i class="fa-solid fa-x"></i>
-          </button>
-          <li class="menuOption"><a href="/">Inicio</a></li>
-          <li class="menuOption"><a href="/">Imóveis</a></li>
-          <li class="menuOption"><a href="/">Serviços</a></li>
-          <li class="menuOption"><a href="/">Sobre</a></li>
-          <li class="menuOption"><a href="/">Contato</a></li>
-        </ul>
+      <div class="container">
+        <div class="menu">
+          <h1>Exemplo</h1>
+          <div class="dropdown">
+            <button id="btn-menu">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="dropdown-content" id="dropdown-content">
+              <button id="closeMenu">
+                <i class="fa-solid fa-x"></i>
+              </button>
+              <li class="menuOption"><a href="/">Inicio</a></li>
+              <li class="menuOption"><a href="/">Imóveis</a></li>
+              <li class="menuOption"><a href="/">Serviços</a></li>
+              <li class="menuOption"><a href="/">Sobre</a></li>
+              <li class="menuOption"><a href="/">Contato</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
     <!-- Section principais -->
@@ -38,115 +42,81 @@
 
       <!-- Imóveis em destaque -->
       <section class="destaques">
-        <h1 class="section-title">Destaques</h1>
-        <!-- Criar component do imóvel -->
-        <div class="imoveis">
-          <div class="imovel">
-            <div class="classificacao">Venda</div>
-            <div class="imagem-imovel">
-              <img src="./imagens/house1.jpg" alt="Imagem de um imóvel">
-            </div>
-            <div class="desc-imovel">
-              <div class="icons-imovel">
-                <p class="icon-text"><i class="fa-solid fa-expand fa-xl"></i>100m²</p>
-                <p class="icon-text"><i class="fa-solid fa-car"></i> 1 Vaga</p>
-                <p class="icon-text"><i class="fa-solid fa-bed"></i> 3 quartos</p>
-              </div>
-              <div class="tipo-cod">
-                <h2>Casa</h2>
-                <p>Cód: 12A0Z</p>
-              </div>
-              <div class="local-preco">
-                <p>Enseada - São Fco. do Sul</p>
-                <h1 class="preco">R$300.000,00</h1>
-              </div>
-            </div>
-          </div>
-          <div class="imovel">
-            <div class="classificacao">Venda</div>
-            <div class="imagem-imovel">
-              <img src="./imagens/house3.jpg" alt="Imagem de um imóvel">
-            </div>
-            <div class="desc-imovel">
-              <div class="icons-imovel">
-                <p class="icon-text"><i class="fa-solid fa-expand fa-xl"></i>100m²</p>
-                <p class="icon-text"><i class="fa-solid fa-car"></i> 1 Vaga</p>
-                <p class="icon-text"><i class="fa-solid fa-bed"></i> 3 quartos</p>
-              </div>
-              <div class="tipo-cod">
-                <h2>Casa</h2>
-                <p>Cód: 12A0Z</p>
-              </div>
-              <div class="local-preco">
-                <p>Enseada - São Fco. do Sul</p>
-                <h1 class="preco">R$300.000,00</h1>
+        <div class="container">
+          <h1 class="section-title">Destaques</h1>
+          <!-- Criar component do imóvel -->
+          <div class="imoveis">
+            <div class="card">
+              <div class="imovel">
+                <div class="classificacao">Venda</div>
+                <div class="imagem-imovel">
+                  <img src="./imagens/house1.jpg" alt="Imagem de um imóvel">
+                </div>
+                <div class="desc-imovel">
+                  <div class="icons-imovel">
+                    <p class="icon-text"><i class="fa-solid fa-expand"></i>100m²</p>
+                    <p class="icon-text"><i class="fa-solid fa-car"></i> 1 Vaga</p>
+                    <p class="icon-text"><i class="fa-solid fa-bed"></i> 3 quartos</p>
+                  </div>
+                  <div class="tipo-cod">
+                    <h2>Casa</h2>
+                    <p>Cód: 12A0Z</p>
+                  </div>
+                  <div class="local-preco">
+                    <p class="local-propriedade">Enseada - São Fco. do Sul</p>
+                    <h1 class="preco">R$300.000,00</h1>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="imovel">
-            <div class="classificacao">Venda</div>
-            <div class="imagem-imovel">
-              <img src="./imagens/house2.jpg" alt="Imagem de um imóvel">
+            <div class="card">
+              <div class="imovel">
+                <div class="classificacao">Venda</div>
+                <div class="imagem-imovel">
+                  <img src="./imagens/house3.jpg" alt="Imagem de um imóvel">
+                </div>
+                <div class="desc-imovel">
+                  <div class="icons-imovel">
+                    <p class="icon-text"><i class="fa-solid fa-expand"></i>100m²</p>
+                    <p class="icon-text"><i class="fa-solid fa-car"></i> 1 Vaga</p>
+                    <p class="icon-text"><i class="fa-solid fa-bed"></i> 3 quartos</p>
+                  </div>
+                  <div class="tipo-cod">
+                    <h2>Casa</h2>
+                    <p>Cód: 12A0Z</p>
+                  </div>
+                  <div class="local-preco">
+                    <p class="local-propriedade">Enseada - São Fco. do Sul</p>
+                    <h1 class="preco">R$300.000,00</h1>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="desc-imovel">
-              <div class="icons-imovel">
-                <p class="icon-text"><i class="fa-solid fa-expand fa-xl"></i>100m²</p>
-                <p class="icon-text"><i class="fa-solid fa-car fa-xl"></i> 1 Vaga</p>
-                <p class="icon-text"><i class="fa-solid fa-bed fa-xl"></i> 3 quartos</p>
-              </div>
-              <div class="tipo-cod">
-                <h2>Casa</h2>
-                <p>Cód: 12A0Z</p>
-              </div>
-              <div class="local-preco">
-                <p>Enseada - São Fco. do Sul</p>
-                <h1 class="preco">R$300.000,00</h1>
-              </div>
-            </div>
-          </div>
-          <div class="imovel">
-            <div class="classificacao">Venda</div>
-            <div class="imagem-imovel">
-              <img src="./imagens/house2.jpg" alt="Imagem de um imóvel">
-            </div>
-            <div class="desc-imovel">
-              <div class="icons-imovel">
-                <p class="icon-text"><i class="fa-solid fa-expand fa-xl"></i>100m²</p>
-                <p class="icon-text"><i class="fa-solid fa-car fa-xl"></i> 1 Vaga</p>
-                <p class="icon-text"><i class="fa-solid fa-bed fa-xl"></i> 3 quartos</p>
-              </div>
-              <div class="tipo-cod">
-                <h2>Casa</h2>
-                <p>Cód: 12A0Z</p>
-              </div>
-              <div class="local-preco">
-                <p>Enseada - São Fco. do Sul</p>
-                <h1 class="preco">R$300.000,00</h1>
+            <div class="card">
+              <div class="imovel">
+                <div class="classificacao">Venda</div>
+                <div class="imagem-imovel">
+                  <img src="./imagens/house2.jpg" alt="Imagem de um imóvel">
+                </div>
+                <div class="desc-imovel">
+                  <div class="icons-imovel">
+                    <p class="icon-text"><i class="fa-solid fa-expand"></i>100m²</p>
+                    <p class="icon-text"><i class="fa-solid fa-car"></i> 1 Vaga</p>
+                    <p class="icon-text"><i class="fa-solid fa-bed"></i> 3 quartos</p>
+                  </div>
+                  <div class="tipo-cod">
+                    <h2>Casa</h2>
+                    <p>Cód: 12A0Z</p>
+                  </div>
+                  <div class="local-preco">
+                    <p class="local-propriedade">Enseada - São Fco. do Sul</p>
+                    <h1 class="preco">R$300.000,00</h1>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="imovel">
-            <div class="classificacao">Venda</div>
-            <div class="imagem-imovel">
-              <img src="./imagens/house2.jpg" alt="Imagem de um imóvel">
-            </div>
-            <div class="desc-imovel">
-              <div class="icons-imovel">
-                <p class="icon-text"><i class="fa-solid fa-expand fa-xl"></i>100m²</p>
-                <p class="icon-text"><i class="fa-solid fa-car fa-xl"></i> 1 Vaga</p>
-                <p class="icon-text"><i class="fa-solid fa-bed fa-xl"></i> 3 quartos</p>
-              </div>
-              <div class="tipo-cod">
-                <h2>Casa</h2>
-                <p>Cód: 12A0Z</p>
-              </div>
-              <div class="local-preco">
-                <p>Enseada - São Fco. do Sul</p>
-                <h1 class="preco">R$300.000,00</h1>
-              </div>
-            </div>
-          </div>
-
+          <button class="btn "> Mais imóveis </button>
         </div>
       </section>
       
@@ -207,7 +177,7 @@
                 <input type="text" id="subject" placeholder="Assunto">
   
                 <textarea name="message" id="message" cols="15" rows="10" placeholder="Digite sua mensagem"></textarea>
-            <button type="" class="submit">Enviar</button>
+            <button type="" class="btn-blue">Enviar</button>
           </form>
         </div>
       </section>
