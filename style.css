@@ -2,6 +2,7 @@
 
 .form {
     overflow-x: hidden;
+    padding: 2rem;
 }
 
 :root {
@@ -16,6 +17,7 @@ h1, h2, h3, h4, h5, h6, strong {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .nav {
@@ -109,13 +111,12 @@ h1, h2, h3, h4, h5, h6, strong {
 .destaques {
     /* Remove height when add content */
     padding: var(--padding);
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .imoveis {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
     margin: 0 auto;
     width: 100%;
 }
@@ -202,6 +203,9 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 /* Fim estilos de cada card de imóvel */
 
+.ver-mais {
+    margin-top: 1rem;
+}
 /* Início estilos pontos turísticos */
 .praia {
     height: 30vh;
@@ -362,19 +366,21 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 
 .btn-blue {
     border-radius: 1.5rem;
-    height: 2rem;
+    height: fit-content;
     background-color: #559eda;
     color: white;
     border: none;
     font-weight: 700;
     cursor: pointer;
     transition: 200ms ease-in-out;
+    text-align: center;
+    padding: .75rem;
 }
 
 .btn-blue:hover { 
     background-color: #f8f8f8;
     color: #559eda;
-    border: 1px solid #559eda;
+    box-shadow: 0px 0px 5px 5px rgb(85, 158, 218);
 }
 
 .footer {
