@@ -13,12 +13,20 @@ h1, h2, h3, h4, h5, h6, strong {
     font-weight: 700;
 }
 
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
 
 .nav {
+    margin: 0 auto;
+    background-color: #A9D9D0;
+}
+
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #A9D9D0;
     height: 8vh;
     padding: var(--padding);
     /* Remove the right padding and let only the btn padding */
@@ -101,19 +109,24 @@ h1, h2, h3, h4, h5, h6, strong {
 .destaques {
     /* Remove height when add content */
     padding: var(--padding);
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .imoveis {
     display: flex;
-    max-width: 1300px;
-    gap: 2rem;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: flex-start;
     margin: 0 auto;
+    width: 100%;
 }
 
 /* Estilos de cada card de imóvel */
+.card {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
 .imovel {
     display: flex;
     flex-direction: column;
@@ -122,8 +135,7 @@ h1, h2, h3, h4, h5, h6, strong {
     box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.5);
     background-color: #F2F2F2;
     position: relative;
-    max-width: 400px;
-    flex: 1 1 400px;
+    height: 100%;
 }
 
 .classificacao {
@@ -138,8 +150,14 @@ h1, h2, h3, h4, h5, h6, strong {
     height: 1.5rem;
 }
 
+.imagem-imovel {
+    height: 70%;
+    object-fit: cover;
+}
+
 .imagem-imovel img {
     width: 100%;
+    height: 100%;
 }
 
 .desc-imovel {
@@ -172,6 +190,10 @@ h1, h2, h3, h4, h5, h6, strong {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.local-propriedade {
+    font-size: .825rem;
 }
 
 .preco {
@@ -338,7 +360,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     box-shadow: 0px 4px rgb(67, 171, 255);
 }
 
-.submit {
+.btn-blue {
     border-radius: 1.5rem;
     height: 2rem;
     background-color: #559eda;
@@ -349,7 +371,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     transition: 200ms ease-in-out;
 }
 
-.submit:hover { 
+.btn-blue:hover { 
     background-color: #f8f8f8;
     color: #559eda;
     border: 1px solid #559eda;
@@ -429,11 +451,20 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     }
 }
 
+@media screen and (min-width: 600px) {
+    /* Small screens (laptops) */
+    .card {
+        width: 50%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     /* Small screens (laptops) */
-    
 }
 
 @media screen and (min-width: 1024px) {
     /* Large screens (desktop) */
+    .card {
+        width: 33.33333%;
+    }
 }
