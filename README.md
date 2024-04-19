@@ -1,30 +1,25 @@
-To do:
+<h1>DevTasks</h1>
 
-Parte 1 - Desenvolvimento das páginas do Website:
-    1. Definir um container e utilizá-lo para centralizar todo o conteúdo (definir somente largura, altura deve ficar por conta do conteúdo)
+<h2>Parte 1 - Desenvolvimento das páginas do Website2</h2>
 
-    2. Melhorar seções:
-        2.1. Corrigir menu mobile e implementar menu desktop
-        2.2. Corrigir carrossel de imagens
-        2.3. Ajustar tamanho dos Cards nos destaques
-        2.4. Ajustar seção de pontos turísticos (praias)
-        2.5. Ajustar a seção de endereço e melhorar estilos
-        2.6. Analisar possíveis melhorias na seção de serviços
-        2.7. Ajustar background da seção de contato (form)
-        2.8. Melhorar seção footer
+1. Definir um container e utilizá-lo para centralizar todo o conteúdo (definir somente largura, altura deve ficar por conta do conteúdo) <input type="checkbox" value="teste">
 
-    3. Ajustar breakpoints das media queries
-    4. Criar páginas adjacentes:
-        4.1. Página da exibição dos imóveis
-        4.2. Página de oferecimento de serviços
-        4.3. Página sobre o dono do Website
-        4.4. Página de contato
+2. Melhorar seções:
+    <p>2.1. Corrigir menu mobile e implementar menu desktop</p>
+    <p>2.2. Corrigir carrossel de imagens</p>
+    <p>2.3. Ajustar tamanho dos Cards nos destaques</p>
+    <p>2.4. Ajustar seção de pontos turísticos (praias)</p>
+    <p>2.5. Ajustar a seção de endereço e melhorar estilos</p>
+    <p>2.6. Analisar possíveis melhorias na seção de serviços</p>
+    <p>2.7. Ajustar background da seção de contato (form)</p>
+    <p>2.8. Melhorar seção footer</p>
 
-    Após finalizar a estrutura HTML, CSS, JS:
-        1. Implementar um framework (Reactjs, Angular, Vuejs)
-        2. Componentizar elementos
-        3. Otimizar renderização de multiplos elementos (e.g. seção de destaque) utilizando laços de repetição etc.
-        4. Melhorar desempenho geral de carregamento da página.
+3. Ajustar breakpoints das media queries
+4. Criar páginas adjacentes:
+    <p>4.1. Página da exibição dos imóveis</p>
+    <p>4.2. Página de oferecimento de serviços</p>
+    <p>4.3. Página sobre o dono do Website</p>
+    <p>4.4. Página de contato</p>
 
-Parte 2 - Desenvolvimento da página de Administração do WebSite:
+<h2>Parte 2 - Desenvolvimento da página de Administração do WebSite:</h2>
     -- Ainda a definir --
