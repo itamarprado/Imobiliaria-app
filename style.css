@@ -297,6 +297,16 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 
 /* Fim estilos endereço/mapa */
+.servicos::before {
+    content: '';
+    background-color: rgba(255, 255, 255);
+    color: red;
+    clip-path: polygon(60% 0, 0 0, 0 100%, 60% 100%, 70% 50%);
+    width: 100%;
+    height: 51%;
+    position: absolute;
+}
+
 .servicos {
     background-image: url(./imagens/services-background.jpg);
     background-position: top;
