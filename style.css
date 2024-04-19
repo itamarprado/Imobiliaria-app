@@ -157,6 +157,12 @@ h1, h2, h3, h4, h5, h6, strong {
     background-color: #F2F2F2;
     position: relative;
     height: 100%;
+    cursor: pointer;
+}
+
+.imovel:hover {
+    box-shadow: 3px 3px 6px 0 rgba(67, 171, 255, 0.8);
+    transform: scale(101%);
 }
 
 .classificacao {
