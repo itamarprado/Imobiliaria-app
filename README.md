@@ -2,12 +2,12 @@
 
 <h2>Parte 1 - Desenvolvimento das páginas do Website2</h2>
 
-1. Definir um container e utilizá-lo para centralizar todo o conteúdo (definir somente largura, altura deve ficar por conta do conteúdo) <input type="checkbox" value="teste">
+1. <s> Definir um container e utilizá-lo para centralizar todo o conteúdo (definir somente largura, altura deve ficar por conta do conteúdo) </s>
 
 2. Melhorar seções:
-    <p>2.1. Corrigir menu mobile e implementar menu desktop</p>
+    <p>2.1. <s>Corrigir menu mobile e implementar menu desktop</s></p>
     <p>2.2. Corrigir carrossel de imagens</p>
-    <p>2.3. Ajustar tamanho dos Cards nos destaques</p>
+    <p>2.3. <s>Ajustar tamanho dos Cards nos destaques</s></p>
     <p>2.4. Ajustar seção de pontos turísticos (praias)</p>
     <p>2.5. Ajustar a seção de endereço e melhorar estilos</p>
     <p>2.6. Analisar possíveis melhorias na seção de serviços</p>
