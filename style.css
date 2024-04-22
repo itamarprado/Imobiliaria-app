@@ -419,7 +419,6 @@ footer {
 .footer {
     display: flex;
     flex-direction: column;
-    padding: var(--padding);
     color: white;
     gap: 1rem;
 }
@@ -434,6 +433,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 0 1rem 0;
 }
 
 .navigation-footer {
@@ -466,6 +466,10 @@ footer {
     height: 2rem;
 }
 
+.media-text {
+    display: none;
+}
+
 .credentials {
     display: flex;
     flex-direction: row;
@@ -474,16 +478,25 @@ footer {
     font-size: 0.9rem;
 }
 
-.copy {
+.dev {
     padding-bottom: .5rem;
     font-weight: 300;
     text-align: center;
+}
+
+.dev-link {
+    text-decoration: underline !important;
+    color: #4eafff !important;
 }
 
 @media screen and (min-width: 480px) {
     /* Tablets and iPads */
     .dropdown-content{
         max-width: 320px;
+    }
+
+    .media-text {
+        display: block;
     }
 }
 
