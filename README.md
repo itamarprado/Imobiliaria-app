@@ -12,7 +12,7 @@
     <p>2.5. Ajustar a seção de endereço e melhorar estilos</p>
     <p>2.6. Analisar possíveis melhorias na seção de serviços</p>
     <p>2.7. Ajustar background da seção de contato (form)</p>
-    <p>2.8. Melhorar seção footer</p>
+    <p>2.8. <s>Melhorar seção footer</s></p>
 
 3. Ajustar breakpoints das media queries
 4. Criar páginas adjacentes:
