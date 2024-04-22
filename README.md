@@ -1,6 +1,6 @@
 <h1>DevTasks</h1>
 
-<h2>Parte 1 - Desenvolvimento das páginas do Website2</h2>
+<h2>Parte 1 - Desenvolvimento das páginas do Website</h2>
 
 1. <s> Definir um container e utilizá-lo para centralizar todo o conteúdo (definir somente largura, altura deve ficar por conta do conteúdo) </s>
 
